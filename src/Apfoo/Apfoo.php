@@ -12,7 +12,7 @@ namespace Apfoo;
 /**
  * Apfoo class for learning composer
  */
-class LearnComposer {
+class Apfoo {
     public function __construct() {
         print "Hello, I successfully learned composer!";
     }
