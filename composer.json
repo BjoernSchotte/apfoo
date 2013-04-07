@@ -1,0 +1,25 @@
+{
+    "name": "bjoernschotte/apfoo",
+    "type": "library",
+    "description": "Awesome Packe Foo for learning composer packaging",
+    "keywords": ["library","foo","composer"],
+    "homepage": "https://github.com/BjoernSchotte/apfoo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Björn Schotte",
+            "email": "bjoern.schotte@googlemail.com",
+            "homepage": "http://www.mayflower.de/",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/http-foundation":"dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Apfoo": "src"
+        }
+    }
+}
